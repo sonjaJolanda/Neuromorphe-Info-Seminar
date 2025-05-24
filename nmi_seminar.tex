@@ -46,76 +46,76 @@
 \input{4_.tex}
 \input{5_.tex}
 
-\section{Infos von Bogdan}
-\subsection{Page format and margins}
-Please avoid using DVI2PDF or PS2PDF converters: some undesired
-shifting/scaling may occur when using these programs
-It is strongly recommended to use the DVIPS converters. 
-%
-Check that you have set the paper size to A4 (and NOT to letter) in your
-dvi2ps converter, in Adobe Acrobat if you use it, and in any printer driver
-that you could use.  You also have to disable the 'scale to fit paper' option
-of your printer driver.
-%
-In any case, please check carefully that the final size of the top and
-bottom margins is 5.2 cm and of the left and right margins is 4.4 cm.
-it is your responsibility to verify this important requirement.  If these margin requirements and not fulfilled at the end of your file generation process, please use the commands at the beginning of the SeminarV2.tex file to correct them.  Otherwise, please do not modify these commands.
+% \section{Infos von Bogdan}
+% \subsection{Page format and margins}
+% Please avoid using DVI2PDF or PS2PDF converters: some undesired 
+% shifting/scaling may occur when using these programs
+% It is strongly recommended to use the DVIPS converters. 
+% %
+% Check that you have set the paper size to A4 (and NOT to letter) in your
+% dvi2ps converter, in Adobe Acrobat if you use it, and in any printer driver
+% that you could use.  You also have to disable the 'scale to fit paper' option
+% of your printer driver.
+% %
+% In any case, please check carefully that the final size of the top and
+% bottom margins is 5.2 cm and of the left and right margins is 4.4 cm.
+% it is your responsibility to verify this important requirement.  If these margin requirements and not fulfilled at the end of your file generation process, please use the commands at the beginning of the SeminarV2.tex file to correct them.  Otherwise, please do not modify these commands.
 
-\subsection{Style information}
-Please do not add page numbers to this style; page numbers will be added by the publisher. Do not add headings to your document.
-\subsection{Mathematics}
-You may include additional packages for typesetting
-algorithms, mathematical formula or to define new operators and environments
-if and only if there is no conflict with the SeminarV2.cls
-file.
+% \subsection{Style information}
+% Please do not add page numbers to this style; page numbers will be added by the publisher. Do not add headings to your document.
+% \subsection{Mathematics}
+% You may include additional packages for typesetting
+% algorithms, mathematical formula or to define new operators and environments
+% if and only if there is no conflict with the SeminarV2.cls
+% file.
 
-It is recommended to avoid the numbering of equations when not
-necessary. When dealing with equation arrays, it could be
-necessary to label several (in)equalities. You can do it using the
-`$\backslash$stackrel' operator (see the SeminarV2.tex source file);
-example:
+% It is recommended to avoid the numbering of equations when not
+% necessary. When dealing with equation arrays, it could be
+% necessary to label several (in)equalities. You can do it using the
+% `$\backslash$stackrel' operator (see the SeminarV2.tex source file);
+% example:
 
-\begin{eqnarray}
-c&=&|d|+|e|\nonumber\\
-&\stackrel{\text{(a)}}{=}&d+e\nonumber\\
-&\stackrel{\text{(b)}}{\geq}&\sqrt{f}\enspace,
-\end{eqnarray}
-\noindent where the equality (a) results from the fact that both
-$d$ and $e$ are positive while (b) comes from the definition of
-$f$.
+% \begin{eqnarray}
+% c&=&|d|+|e|\nonumber\\
+% &\stackrel{\text{(a)}}{=}&d+e\nonumber\\
+% &\stackrel{\text{(b)}}{\geq}&\sqrt{f}\enspace,
+% \end{eqnarray}
+% \noindent where the equality (a) results from the fact that both
+% $d$ and $e$ are positive while (b) comes from the definition of
+% $f$.
 
-\subsection{Tables and figures}
+% \subsection{Tables and figures}
 
-Figure \ref{Fig:MV} shows an example of figure and related
-caption.  Do not use too small symbols and lettering in your
-figures.  Warning: your paper will be printed in black and white
-in the proceedings.  You may insert color figures, but it is your
-responsibility to check that they print correctly in black and
-white.  The color version will be kept in the Seminar electronic
-proceedings available on the web.
+% Figure \ref{Fig:MV} shows an example of figure and related
+% caption.  Do not use too small symbols and lettering in your
+% figures.  Warning: your paper will be printed in black and white
+% in the proceedings.  You may insert color figures, but it is your
+% responsibility to check that they print correctly in black and
+% white.  The color version will be kept in the Seminar electronic
+% proceedings available on the web.
 
-\begin{figure}[ht]
-\centering
-% \includegraphics[scale=0.5]{any_question.eps}
-\mycaption{Any questions?\label{Fig:MV}}
-\end{figure}
+% \begin{figure}[ht]
+% \centering
+% % \includegraphics[scale=0.5]{any_question.eps}
+% \mycaption{Any questions?\label{Fig:MV}}
+% \end{figure}
 
-Table \ref{Tab:AgeWeight} shows an example of table.
+% Table \ref{Tab:AgeWeight} shows an example of table.
 
-\begin{table}[h!]
-  \centering
-  \begin{tabular}{|c|c|c|}
-    \hline
-    ID & age & weight \\
-    \hline
-    1& 15 & 65 \\
-    2& 24 & 74\\
-    3& 18 & 69 \\
-    4& 32 & 78 \\
-    \hline
-  \end{tabular}
-  \mycaption{Age and weight of people.\label{Tab:AgeWeight}}
-\end{table}
+% \begin{table}[h!]
+%   \centering
+%   \begin{tabular}{|c|c|c|}
+%     \hline
+%     ID & age & weight \\
+%     \hline
+%     1& 15 & 65 \\
+%     2& 24 & 74\\
+%     3& 18 & 69 \\
+%     4& 32 & 78 \\
+%     \hline
+%   \end{tabular}
+%   \mycaption{Age and weight of people.\label{Tab:AgeWeight}}
+% \end{table}
 
 % ****************************************************************************
 % BIBLIOGRAPHY AREA
